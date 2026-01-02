@@ -1,5 +1,14 @@
 def selection_sort(xs):
-    pass
+    for i in range(len(xs)-1):
+    # find minimum value in unsorted region
+        min_index = i
+    for j in range(x +1, len(xs)):
+    #Update min index if value at j is lower than current min index
+        if xs[j] < xs[min_index]:
+            min_index = j
+    #After finding the minimum value swat the first unsorted value
+    xs[i], xs[min_index] = xs[min_index], xs[i]
+
 
 
 xs = [3, 2, 1, 5, 4]
