@@ -7,3 +7,4 @@ for i in range(1, 101):
 for i in range(1, 101):
     if doors[i] is True:
         print(i, end=", ")
+
