@@ -7,7 +7,7 @@ function makeChange(targetAmount){
     //make an arrary to hold the coins used
     let values = [];
     //iterate through the money possibilities 
-    for (coin of money){
+    for (let coin of money){
         //Use current coin until value is too large
         while (targetAmount >= coin){
             // Decrease the remaining amount
@@ -19,5 +19,5 @@ function makeChange(targetAmount){
         }
     }
     // return the count and the values array 
-    return coinCount, values
+    return {coinCount, values}
 }
