@@ -1,5 +1,5 @@
 def make_change(target_amount):
-    pass  # Write your solution here. 
+    
 
 
 print(make_change(24))  # 3: 20p + 2p + 2p

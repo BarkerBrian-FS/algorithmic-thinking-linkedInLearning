@@ -7,3 +7,4 @@ def my_sum(lst):
 
 my_list = [5, 4, 3, 2, 1]
 print(my_sum(my_list))
+
